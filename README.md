@@ -8,8 +8,8 @@ Examples are shown below (`num_sim_to_use` and `piece_size` must be tweaked per 
 ![](puzzle_pic_1.jpg)
 
 <p float="left">
-  <img src="piece_2.jpg" width="100" />
-  <img src="piece_2_puzzle_.png" width="100" /> 
+  <img src="piece_1.jpg" width="100" />
+  <img src="piece_1_puzzle.png" width="100" /> 
 </p>
 
 
