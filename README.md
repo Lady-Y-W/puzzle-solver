@@ -4,6 +4,15 @@ This is a simple puzzle solver that uses basic image processing and some basic i
 
 Examples are shown below (`num_sim_to_use` and `piece_size` must be tweaked per piece in order to obtain these results - we obtained these results by tweaking post-hoc i.e. after having some rough idea of the piece location; lighting conditions and rotations were standardised):
 
+### The puzzle:
+![](puzzle_pic_1.jpg)
+
+<p float="left">
+  <img src="piece_2.jpg" width="100" />
+  <img src="piece_2_puzzle_.png" width="100" /> 
+</p>
+
+
 Further improvements:
 - Accomodate for random streches of the puzzle piece
 - Accomodate different grooves of the piece to fit adjacent pieces
