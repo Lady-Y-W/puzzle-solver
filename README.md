@@ -7,11 +7,17 @@ Examples are shown below (`num_sim_to_use` and `piece_size` must be tweaked per 
 ### The puzzle:
 ![](puzzle_pic_1.jpg)
 
-<p float="left">
+### Example of solved piece:
+<p align="middle">
   <img src="piece_1.jpg" width="100" />
-  <img src="piece_1_puzzle.png" width="100" /> 
+  <img src="piece_1_puzzle.png" width="500" /> 
 </p>
 
+### Example of solved piece:
+<p align="middle">
+  <img src="piece_3.jpg" width="100" />
+  <img src="piece_3_puzzle.png" width="500" /> 
+</p>
 
 Further improvements:
 - Accomodate for random streches of the puzzle piece
