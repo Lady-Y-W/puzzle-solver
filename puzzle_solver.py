@@ -67,7 +67,14 @@ for piece_ind, piece in enumerate([piece_000, piece_090, piece_180, piece_270]):
 
 sorted_inds = np.argsort(errors, axis=0)
 
-pred_tile = int(np.mean(sorted_inds[num_sim_to_use]))
+pred_tile_loc = []
+
+for num in range(num_sim_to_use):
+    for rot in range(4):
+        min_loc = np.where(sorted_inds[:, rot]==num)[0][0]
+        pred_tile_loc.append(min_loc)
+
+pred_tile = np.mean(pred_tile_loc)
 
 total_tiles = len(tiles)
 
