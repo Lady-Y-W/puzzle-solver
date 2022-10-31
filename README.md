@@ -19,7 +19,7 @@ Examples are shown below (`num_sim_to_use` and `piece_size` must be tweaked per 
   <img src="piece_3_puzzle.png" width="500" /> 
 </p>
 
-Further improvements:
+Further improvements (please feel free to submit pull requests if you decide to expand):
 - Accomodate for random streches of the puzzle piece
 - Accomodate different grooves of the piece to fit adjacent pieces
 - Accomodate different lighting conditions
